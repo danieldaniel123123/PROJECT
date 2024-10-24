@@ -8,7 +8,7 @@ import os
 load_dotenv()
 
 # Configure the GenerativeAI API key using the loaded environment variable
-genai.configure(api_key=os.getenv('AIzaSyAAZcG-2cV2zC-U87RsSW-gK5mP0j0mQVk'))
+genai.configure(api_key=os.getenv('API_KEY_DISINI'))
 
 # Set up the model configuration for text generation
 generation_config = {
